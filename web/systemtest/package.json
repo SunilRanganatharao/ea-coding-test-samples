@@ -1,0 +1,20 @@
+{
+  "name": "systemtest",
+  "version": "1.0.0",
+  "description": "Cypress Tests",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run --headless --browser chrome",
+    "cypress:open": "cypress open"
+  },
+  "author": "Sunil Rao",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.17.1",
+    "cypress": "^12.17.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1"
+  }
+}
+
